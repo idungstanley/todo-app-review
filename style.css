@@ -1,0 +1,125 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: white;
+  border: 1px solid black;
+  width: 50%;
+  margin: 30px auto;
+  border-radius: 3px;
+  box-shadow: 1px 1px 10px gray;
+}
+
+.header {
+  height: 40px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > h5 {
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Raleway, sans-serif;
+}
+
+li {
+  border-top: 1px solid rgb(228, 228, 228);
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.selected {
+  background-color: #fff6a7;
+}
+
+.text {
+  height: 39px;
+  background-color: transparent;
+  width: 100%;
+  border: none;
+}
+
+.text:focus {
+  outline: none;
+}
+
+.gray {
+  color: gray;
+  max-width: 30px;
+}
+
+#input {
+  border: none;
+  width: 100%;
+  padding-left: 10px;
+  height: 40px;
+}
+
+#input::placeholder {
+  font-style: italic;
+}
+
+form {
+  position: relative;
+}
+
+.key {
+  position: absolute;
+  right: 5px;
+  top: 7px;
+}
+
+#input:focus {
+  outline: none;
+}
+
+input[type="checkbox"] {
+  display: flex;
+  align-self: center;
+  background-color: transparent;
+}
+
+.vertical {
+  cursor: move;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.clearAll {
+  cursor: pointer;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-container {
+  list-style: none;
+  width: 100%;
+}
+
+.footer {
+  height: 40px;
+  font-family: Raleway, sans-serif;
+  color: gray;
+  display: flex;
+  border-top: 1px solid rgb(228, 228, 228);
+  align-items: center;
+  justify-content: center;
+}
